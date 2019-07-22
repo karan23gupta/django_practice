@@ -1,0 +1,9 @@
+{% extends "main/header.html" %}
+
+{% block content %}
+<h3>your favourite stocks are: </h3>
+<br>
+{%for i in ans%}
+    {{i}}<br>
+{%endfor%}
+{% endblock %}
